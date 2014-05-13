@@ -11,6 +11,10 @@ def factorial(n):
 
 def check_argv():
     if len(sys.argv)==2:
+        try:
+            n=int(sys.argv[1])
+        except(ValueError):
+            sys.exit(usage)
         return True
     else:
         sys.exit(usage)
