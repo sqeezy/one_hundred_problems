@@ -1,7 +1,7 @@
 import sys
 import os
 
-usage = "count_words_and_lines [filepath]"
+usage = "usage: python count_words_and_lines.py [filepath]"
 countWords = 0
 countLines = 0
 
