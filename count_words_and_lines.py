@@ -20,4 +20,4 @@ if os.path.isfile(sys.argv[1]):
     print "{} contains {} lines with {} words.".format(path,countLines,countWords)
 
 else:
-    sys.exit("There is no valid file under the input path")
+    sys.exit("There is no valid file under the input path.")
